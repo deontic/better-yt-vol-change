@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YT better volume change",
+  "version": "0.1.0",
+  "description": "stop the title and video controls from appearing when changing the volume using arrow keys",
+
+  "permissions": ["activeTab"],
+
+  "action": {
+    "default_title": "yt better volume change"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.youtube.com/watch*", "https://www.youtube.com/watch*"],
+      "run_at": "document_idle",
+      "js": ["contentScript.js"],
+      "css": []
+    }
+  ]
+}
