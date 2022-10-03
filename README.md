@@ -8,6 +8,6 @@ run the [contents of contentScript.js](https://raw.githubusercontent.com/deontic
 
 # run as an extension
 
-download build_archive.zip
-extract build folder from it
-load unpacked extension -> extracted build folder
+* download build-archive.zip
+* extract build folder from it
+* load unpacked extension -> extracted build folder
