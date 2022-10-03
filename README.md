@@ -3,8 +3,8 @@ stop the title and video controls from appearing when changing the volume using 
 
 
 # run as a script
-run the contents of contentScript.js in your console in a tab where the Youtube video player is visible
-(copy and paste [this code](https://raw.githubusercontent.com/deontic/better-yt-vol-change/main/src/contentScript.js) into your console)
+run the [contents of contentScript.js](https://raw.githubusercontent.com/deontic/better-yt-vol-change/main/src/contentScript.js) in your console in a tab where the Youtube video player is visible
+
 
 # run as an extension
 
